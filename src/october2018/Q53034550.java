@@ -26,7 +26,7 @@ public class Q53034550 {
 	    WebDriverWait wait=new WebDriverWait(driver, 10);
 	    
 	    WebElement guru99seleniumlink;
-		guru99seleniumlink= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath( "//.")));
+//		guru99seleniumlink= wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath( "//.")));
 	    
 	    actions.moveToElement(ele);
 	    actions.perform();
